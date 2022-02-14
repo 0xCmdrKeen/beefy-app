@@ -1206,6 +1206,7 @@ export const fantomPools = [
       'https://app.sushi.com/add/0x1E4F97b9f9F913c46F1632781732927B9019C68b/0x74b23882a30290451A17c44f4F05243b6b58C76d',
     buyTokenUrl:
       'https://app.sushi.com/swap?inputCurrency=0x74b23882a30290451A17c44f4F05243b6b58C76d&outputCurrency=0x1E4F97b9f9F913c46F1632781732927B9019C68b',
+    createdAt: 1643231468,
   },
   {
     id: '0xdao-wftm-eol',
