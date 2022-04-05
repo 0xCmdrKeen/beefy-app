@@ -131,7 +131,7 @@ export const fantomPools = [
     withdrawalFee: '0%',
     addLiquidityUrl: 'https://app.hector.finance/#/farming',
     buyTokenUrl: 'https://app.hector.finance/#/dex',
-    createdAt: 1648249261015,
+    createdAt: 1648246535,
   },
   {
     id: 'based-based-bshare',
