@@ -200,6 +200,7 @@ export const polygonPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
+    withdrawalFee: '0%',
     addLiquidityUrl:
       'https://quickswap.exchange/#/add/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619/0xfe4546feFe124F30788c4Cc1BB9AA6907A7987F9',
     buyTokenUrl:
@@ -236,6 +237,7 @@ export const polygonPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
+    withdrawalFee: '0%',
     addLiquidityUrl:
       'https://quickswap.exchange/#/add/0x64875Aaa68d1d5521666C67d692Ee0B926b08b2F/0xfe4546feFe124F30788c4Cc1BB9AA6907A7987F9',
     buyTokenUrl:
@@ -272,6 +274,7 @@ export const polygonPools = [
       'CONTRACTS_VERIFIED',
     ],
     stratType: 'StratLP',
+    withdrawalFee: '0%',
     addLiquidityUrl:
       'https://quickswap.exchange/#/add/0x9Bd9aD490dD3a52f096D229af4483b94D63BE618/0xfe4546feFe124F30788c4Cc1BB9AA6907A7987F9',
     buyTokenUrl:
@@ -315,7 +318,7 @@ export const polygonPools = [
     createdAt: 1642000487,
   },
   {
-    id: 'quick-genesis-quick',
+    id: 'quick-genesis-quick-eol',
     name: 'GENESIS-QUICK LP',
     token: 'GENESIS-QUICK LP',
     tokenDescription: 'QuickSwap',
@@ -329,8 +332,9 @@ export const polygonPools = [
     tvl: 0,
     oracle: 'lps',
     oracleId: 'quick-genesis-quick',
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'QuickSwap',
     assets: ['GENESIS', 'QUICK'],
     risks: [
@@ -819,7 +823,7 @@ export const polygonPools = [
     createdAt: 1641144218,
   },
   {
-    id: 'jarvis-5eur',
+    id: 'jarvis-5eur-eol',
     name: 'agEUR-4EUR',
     token: 'ag5eur',
     tokenDescription: 'Curve (Jarvis)',
@@ -834,8 +838,9 @@ export const polygonPools = [
     oracle: 'lps',
     oracleId: 'jarvis-5eur',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'Other',
     assets: ['agEUR', '4EUR'],
     risks: [
@@ -7901,7 +7906,7 @@ export const polygonPools = [
     createdAt: 1620048408,
   },
   {
-    id: 'quick-aave-eth',
+    id: 'quick-aave-eth-eol',
     logo: 'polygon/AAVE-ETH.png',
     name: 'AAVE-ETH LP',
     token: 'AAVE-ETH QLP',
@@ -7917,8 +7922,9 @@ export const polygonPools = [
     oracle: 'lps',
     oracleId: 'quick-aave-eth',
     oraclePrice: 0,
-    depositsPaused: false,
-    status: 'active',
+    depositsPaused: true,
+    status: 'eol',
+    retireReason: 'rewards',
     platform: 'QuickSwap',
     assets: ['AAVE', 'ETH'],
     risks: [

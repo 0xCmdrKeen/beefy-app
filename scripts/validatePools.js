@@ -23,6 +23,9 @@ const overrides = {
   'aurora-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
   'fuse-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
   'moonbeam-bifi-maxi': { beefyFeeRecipient: undefined }, // 0x0
+  // TODO delete after updating beefyFeeRecipient
+  'stargate-bsc-busd': { beefyFeeRecipient: undefined }, // 0x0
+  'stargate-bsc-usdt': { beefyFeeRecipient: undefined }, // 0x0
 };
 
 const oldValidOwners = [
@@ -250,8 +253,6 @@ const isBeefyFeeRecipientCorrect = (pool, chain, recipient, updates) => {
     console.log(
       `Pool ${pool.id} should update beefy fee recipient. From: ${pool.beefyFeeRecipient} To: ${recipient}`
     );
-    // TODO delete after changing BSC fee recipient
-    if (chain === 'bsc') return updates;
 
     if (!('beefyFeeRecipient' in updates)) updates['beefyFeeRecipient'] = {};
     if (!(chain in updates.beefyFeeRecipient)) updates.beefyFeeRecipient[chain] = {};
@@ -286,7 +287,7 @@ const populateVaultsData = async (chain, pools, web3) => {
     return {
       ...pool,
       strategy: results[i].strategy,
-      owner: results[i].owner,
+      vaultOwner: results[i].owner,
       totalSupply: results[i].totalSupply,
     };
   });
