@@ -154,7 +154,7 @@ export const auroraPools = [
       'https://www.trisolaris.io/#/swap?outputCurrency=0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x07F9F7f963C5cD2BBFFd30CcfB964Be114332E30/0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d',
-    createdAt: 1644674245,
+    createdAt: 1645554735,
   },
   {
     id: 'tri-mecha-near-eol',
