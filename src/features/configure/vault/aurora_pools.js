@@ -58,7 +58,7 @@ export const auroraPools = [
       'COMPLEXITY_LOW',
       'BATTLE_TESTED',
       'IL_HIGH',
-      'MCAP_MICRO',
+      'MCAP_MEDIUM',
       'AUDIT',
       'CONTRACTS_VERIFIED',
     ],
@@ -67,7 +67,7 @@ export const auroraPools = [
       'https://www.trisolaris.io/#/swap?outputCurrency=0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79',
     addLiquidityUrl:
       'https://www.trisolaris.io/#/add/0x8BEc47865aDe3B172A928df8f990Bc7f2A3b9f79/0xC42C30aC6Cc15faC9bD938618BcaA1a1FaE8501d',
-    createdAt: 1650679529,
+    createdAt: 1651702395,
   },
   {
     id: 'tri-bstn-near',
