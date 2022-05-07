@@ -645,7 +645,7 @@ export const fantomPools = [
     withdrawalFee: '0.01%',
     mintTokenUrl: 'https://beta.beefy.finance/#/fantom/vault/beefy-beFTM',
     buyTokenUrl:
-      'https://solidly.exchange/swap?outputCurrency=0x7381eD41F6dE418DdE5e84B55590422a57917886',
+      'https://spooky.fi/#/swap?outputCurrency=0x7381eD41F6dE418DdE5e84B55590422a57917886',
     createdAt: 1646162527,
   },
   {
