@@ -56,6 +56,7 @@ export const fantomPools = [
     assets: ['MAI', 'USDC'],
     risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_NONE', 'MCAP_MEDIUM', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratMultiLP',
+    depositFee: '0.5%',
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://beets.fi/#/pool/0x985976228a4685ac4ecb0cfdbeed72154659b6d900020000000000000000008d',
@@ -83,6 +84,7 @@ export const fantomPools = [
     assets: ['QI', 'FTM'],
     risks: ['COMPLEXITY_LOW', 'NEW_STRAT', 'IL_LOW', 'MCAP_MICRO', 'AUDIT', 'CONTRACTS_VERIFIED'],
     stratType: 'StratMultiLP',
+    depositFee: '0.5%',
     withdrawalFee: '0%',
     addLiquidityUrl:
       'https://beets.fi/#/pool/0x7ae6a223cde3a17e0b95626ef71a2db5f03f540a00020000000000000000008a',
